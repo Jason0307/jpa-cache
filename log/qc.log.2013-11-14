@@ -1,0 +1,711 @@
+2013-11-14 09:17:40,625-[TS] INFO main org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b222f: startup date [Thu Nov 14 09:17:40 CST 2013]; root of context hierarchy
+2013-11-14 09:18:41,906-[TS] INFO main org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12f6684: startup date [Thu Nov 14 09:18:41 CST 2013]; root of context hierarchy
+2013-11-14 09:18:42,609-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18385e3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,application,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,dashboardController,messagePrinter,userServiceImpl,springTaskDemo,mockMessageService]; root of factory hierarchy
+2013-11-14 09:18:42,765-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18385e3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,application,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,dashboardController,messagePrinter,userServiceImpl,springTaskDemo,mockMessageService]; root of factory hierarchy
+2013-11-14 09:19:50,781-[TS] INFO main org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f38798: startup date [Thu Nov 14 09:19:50 CST 2013]; root of context hierarchy
+2013-11-14 09:19:51,140-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb25f1: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,application,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,messagePrinter,springTaskDemo,mockMessageService]; root of factory hierarchy
+2013-11-14 10:44:20,812-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 10:44:23,265-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 10:44:29,093-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@540408: startup date [Thu Nov 14 10:44:29 CST 2013]; root of context hierarchy
+2013-11-14 10:44:32,171-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 10:44:32,718-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 10:44:32,875-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 10:44:32,890-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 10:44:33,375-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 10:44:33,437-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 10:44:33,656-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@127fa12: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 10:44:34,390-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 10:44:36,343-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 10:44:36,437-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 10:44:36,453-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 10:44:36,468-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 10:44:36,984-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 10:44:39,750-[TS] INFO main org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-11-14 10:44:42,937-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 10:44:43,078-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2013-11-14 10:44:43,203-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 10:44:43,296-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 10:44:44,109-[TS] INFO main org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2013-11-14 10:44:47,890-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 10:44:47,890-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 10:44:47,890-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 10:44:48,093-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.email
+2013-11-14 10:44:48,109-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [email]
+2013-11-14 10:44:48,109-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:44:48,109-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:44:48,125-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 10:44:48,125-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 10:44:48,125-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:44:48,125-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:44:48,125-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 10:44:54,421-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2013-11-14 10:44:54,421-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2013-11-14 10:44:54,421-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: true
+2013-11-14 10:44:54,421-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SpringJpaData]
+2013-11-14 10:44:54,421-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=jasonzhu, password=****, autocommit=true, release_mode=auto}
+2013-11-14 10:44:54,453-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 10:44:54,484-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 10:44:54,484-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 10:44:54,500-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 10:44:54,500-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 10:44:54,500-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 10:44:54,515-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.email
+2013-11-14 10:44:54,515-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [email]
+2013-11-14 10:44:54,515-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:44:54,515-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:44:54,531-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 10:44:54,531-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 10:44:54,531-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:44:54,531-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:44:54,531-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 10:44:54,531-[TS] WARN main org.hibernate.ejb.internal.EntityManagerFactoryRegistry - HHH000436: Entity manager factory name (jpaDemo) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2013-11-14 10:44:55,171-[TS] INFO Thread-1 org.springframework.context.support.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@540408: startup date [Thu Nov 14 10:44:29 CST 2013]; root of context hierarchy
+2013-11-14 10:44:55,171-[TS] INFO Thread-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@127fa12: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 10:44:55,171-[TS] INFO Thread-1 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 10:44:55,171-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 10:44:55,171-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2013-11-14 10:45:51,609-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 10:45:51,859-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 10:45:52,453-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@1abab88: startup date [Thu Nov 14 10:45:52 CST 2013]; root of context hierarchy
+2013-11-14 10:45:52,890-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 10:45:52,984-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 10:45:52,984-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 10:45:52,984-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 10:45:53,062-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 10:45:53,078-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 10:45:53,125-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5d9084: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 10:45:53,328-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 10:45:53,609-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 10:45:53,609-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 10:45:53,625-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 10:45:53,625-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 10:45:53,671-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 10:45:54,140-[TS] INFO main org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-11-14 10:45:54,625-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 10:45:54,640-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2013-11-14 10:45:54,671-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 10:45:54,671-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 10:45:54,781-[TS] INFO main org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2013-11-14 10:45:55,375-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 10:45:55,375-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 10:45:55,375-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 10:45:55,406-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.email
+2013-11-14 10:45:55,406-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [email]
+2013-11-14 10:45:55,406-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:45:55,406-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:45:55,421-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 10:45:55,421-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 10:45:55,421-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:45:55,421-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:45:55,421-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 10:45:56,546-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2013-11-14 10:45:56,562-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2013-11-14 10:45:56,562-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: true
+2013-11-14 10:45:56,562-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SpringJpaData]
+2013-11-14 10:45:56,562-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=jasonzhu, password=****, autocommit=true, release_mode=auto}
+2013-11-14 10:45:56,578-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 10:45:56,593-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 10:45:56,593-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 10:45:56,609-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 10:45:56,609-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 10:45:56,609-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 10:45:56,625-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.email
+2013-11-14 10:45:56,625-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [email]
+2013-11-14 10:45:56,625-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:45:56,625-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:45:56,640-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 10:45:56,640-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 10:45:56,640-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 10:45:56,640-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 10:45:56,640-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 10:45:56,640-[TS] WARN main org.hibernate.ejb.internal.EntityManagerFactoryRegistry - HHH000436: Entity manager factory name (jpaDemo) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2013-11-14 10:46:06,515-[TS] INFO Thread-1 org.springframework.context.support.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@1abab88: startup date [Thu Nov 14 10:45:52 CST 2013]; root of context hierarchy
+2013-11-14 10:46:06,515-[TS] INFO Thread-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5d9084: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 10:46:06,515-[TS] INFO Thread-1 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 10:46:06,531-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 10:46:06,531-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2013-11-14 16:47:19,703-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 16:47:21,421-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 16:47:27,953-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@116471f: startup date [Thu Nov 14 16:47:27 CST 2013]; root of context hierarchy
+2013-11-14 16:47:30,296-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 16:47:30,890-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 16:47:31,000-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 16:47:31,000-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 16:47:31,468-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 16:47:31,562-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 16:47:31,781-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a68ef9: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 16:47:32,656-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 16:47:35,046-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 16:47:35,125-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 16:47:35,125-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 16:47:35,156-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 16:47:35,781-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 16:47:39,421-[TS] INFO main org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-11-14 16:47:42,203-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 16:47:42,328-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2013-11-14 16:47:42,468-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 16:47:42,593-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 16:47:43,406-[TS] INFO main org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2013-11-14 16:47:46,515-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 16:47:46,515-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 16:47:46,515-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 16:47:46,578-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.email
+2013-11-14 16:47:46,578-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [email]
+2013-11-14 16:47:46,578-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 16:47:46,578-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 16:47:46,609-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 16:47:46,609-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 16:47:46,609-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 16:47:46,609-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 16:47:46,609-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 16:47:51,890-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2013-11-14 16:47:51,890-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20
+2013-11-14 16:47:51,890-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: true
+2013-11-14 16:47:51,890-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/SpringJpaData]
+2013-11-14 16:47:51,890-[TS] INFO main org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=jasonzhu, password=****, autocommit=true, release_mode=auto}
+2013-11-14 16:47:51,921-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 16:47:51,937-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 16:47:51,937-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 16:47:51,953-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 16:47:51,953-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 16:47:51,953-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 16:47:51,968-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.email
+2013-11-14 16:47:51,968-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [email]
+2013-11-14 16:47:51,968-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 16:47:51,968-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 16:47:51,984-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 16:47:51,984-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 16:47:51,984-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 16:47:51,984-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 16:47:51,984-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 16:47:51,984-[TS] WARN main org.hibernate.ejb.internal.EntityManagerFactoryRegistry - HHH000436: Entity manager factory name (jpaDemo) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2013-11-14 16:47:59,218-[TS] INFO Thread-1 org.springframework.context.support.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@116471f: startup date [Thu Nov 14 16:47:27 CST 2013]; root of context hierarchy
+2013-11-14 16:47:59,218-[TS] INFO Thread-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a68ef9: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 16:47:59,218-[TS] INFO Thread-1 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 16:47:59,218-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 16:47:59,218-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2013-11-14 18:57:42,546-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 18:57:45,484-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 18:57:53,828-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@f0eed6: startup date [Thu Nov 14 18:57:53 CST 2013]; root of context hierarchy
+2013-11-14 18:57:56,937-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 18:57:57,578-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 18:57:57,718-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 18:57:57,765-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 18:57:58,406-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 18:57:58,453-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 18:57:58,734-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@137d090: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 18:58:00,546-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 18:58:03,906-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 18:58:04,156-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 18:58:04,156-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 18:58:04,203-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 18:58:04,921-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 18:58:06,437-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@137d090: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 18:58:06,437-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 18:58:06,437-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2013-11-14 18:58:06,437-[TS] ERROR main org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e33e18] to prepare test instance [org.zhubao.service.UserServiceTest@101ac93]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAOImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: jpaDemo] class or package not found
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:105)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:57)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAOImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: jpaDemo] class or package not found
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:512)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:92)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAOImpl': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: jpaDemo] class or package not found
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessPropertyValues(PersistenceAnnotationBeanPostProcessor.java:342)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:484)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: jpaDemo] class or package not found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findDefaultEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:530)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findEntityManagerFactory(PersistenceAnnotationBeanPostProcessor.java:496)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.resolveEntityManager(PersistenceAnnotationBeanPostProcessor.java:657)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement.getResourceToInject(PersistenceAnnotationBeanPostProcessor.java:628)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:155)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:92)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessPropertyValues(PersistenceAnnotationBeanPostProcessor.java:339)
+	... 54 more
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: jpaDemo] class or package not found
+	at org.hibernate.ejb.Ejb3Configuration.addNamedAnnotatedClasses(Ejb3Configuration.java:1401)
+	at org.hibernate.ejb.Ejb3Configuration.addClassesToSessionFactory(Ejb3Configuration.java:1184)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:1048)
+	at org.hibernate.ejb.Ejb3Configuration.configure(Ejb3Configuration.java:693)
+	at org.hibernate.ejb.HibernatePersistence.createContainerEntityManagerFactory(HibernatePersistence.java:73)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:267)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:310)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	... 67 more
+Caused by: java.lang.ClassNotFoundException: org.zhubao.model.Email
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:170)
+	at org.hibernate.ejb.Ejb3Configuration.classForName(Ejb3Configuration.java:1318)
+	at org.hibernate.ejb.Ejb3Configuration.addNamedAnnotatedClasses(Ejb3Configuration.java:1390)
+	... 75 more
+2013-11-14 18:59:23,015-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 18:59:23,484-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 18:59:24,375-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@1971afc: startup date [Thu Nov 14 18:59:24 CST 2013]; root of context hierarchy
+2013-11-14 18:59:24,937-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 18:59:25,062-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 18:59:25,078-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 18:59:25,078-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 18:59:25,203-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 18:59:25,203-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 18:59:25,250-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32784a: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 18:59:25,500-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 18:59:25,843-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 18:59:25,875-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 18:59:25,875-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 18:59:25,875-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 18:59:25,937-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 18:59:29,281-[TS] INFO main org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-11-14 18:59:34,312-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 18:59:34,484-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2013-11-14 18:59:34,609-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 18:59:34,734-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 18:59:35,515-[TS] INFO main org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2013-11-14 18:59:41,546-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 18:59:41,546-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 18:59:41,546-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 18:59:42,218-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 18:59:42,218-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 18:59:42,218-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 18:59:42,234-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 18:59:42,234-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 18:59:45,593-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32784a: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 18:59:45,593-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 18:59:45,593-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 18:59:45,593-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2013-11-14 18:59:45,593-[TS] ERROR main org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1feaf06] to prepare test instance [org.zhubao.service.UserServiceTest@194ba17]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:105)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:57)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:512)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:92)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:149)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:484)
+	... 41 more
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:75)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:327)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:307)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:271)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:245)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:72)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:188)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.buildTree(PartTree.java:277)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:257)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:71)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:57)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:90)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:162)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:68)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:158)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:162)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:44)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	... 49 more
+2013-11-14 19:01:02,046-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 19:01:02,421-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 19:01:03,359-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@1971afc: startup date [Thu Nov 14 19:01:03 CST 2013]; root of context hierarchy
+2013-11-14 19:01:04,062-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 19:01:04,187-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 19:01:04,203-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:01:04,203-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:01:04,312-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 19:01:04,312-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:01:04,375-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bad8a8: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 19:01:04,609-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 19:01:05,015-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 19:01:05,015-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 19:01:05,031-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 19:01:05,031-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 19:01:05,093-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 19:01:05,703-[TS] INFO main org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-11-14 19:01:06,578-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 19:01:06,640-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2013-11-14 19:01:06,671-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 19:01:06,687-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 19:01:06,812-[TS] INFO main org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2013-11-14 19:01:07,921-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 19:01:07,921-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 19:01:07,921-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 19:01:08,015-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 19:01:08,015-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 19:01:08,015-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 19:01:08,015-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 19:01:08,015-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 19:01:08,765-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bad8a8: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 19:01:08,781-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 19:01:08,781-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 19:01:08,781-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2013-11-14 19:01:08,781-[TS] ERROR main org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6c9ec6] to prepare test instance [org.zhubao.service.UserServiceTest@12beeec]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:105)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:57)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:512)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:92)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:149)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:484)
+	... 41 more
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:75)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:327)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:307)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:271)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:245)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:72)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:188)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.buildTree(PartTree.java:277)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:257)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:71)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:57)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:90)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:162)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:68)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:158)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:162)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:44)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	... 49 more
+2013-11-14 19:05:21,953-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 19:05:22,500-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 19:05:23,625-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@16cd7d5: startup date [Thu Nov 14 19:05:23 CST 2013]; root of context hierarchy
+2013-11-14 19:05:24,171-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 19:05:24,281-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 19:05:24,281-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:05:24,296-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:05:24,453-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 19:05:24,453-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:05:24,562-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e61fd1: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 19:05:24,796-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 19:05:25,187-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 19:05:25,218-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 19:05:25,218-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 19:05:25,218-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 19:05:25,296-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 19:05:25,796-[TS] INFO main org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-11-14 19:05:26,375-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 19:05:26,406-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2013-11-14 19:05:26,421-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 19:05:26,437-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 19:05:26,562-[TS] INFO main org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2013-11-14 19:05:27,375-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 19:05:27,375-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 19:05:27,390-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 19:05:27,453-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 19:05:27,453-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 19:05:27,453-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 19:05:27,453-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 19:05:27,453-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 19:05:28,140-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@e61fd1: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 19:05:28,140-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 19:05:28,140-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 19:05:28,140-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2013-11-14 19:05:28,140-[TS] ERROR main org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@cee271] to prepare test instance [org.zhubao.service.UserServiceTest@749436]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:284)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:105)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:57)
+	at org.springframework.test.context.support.DelegatingSmartContextLoader.loadContext(DelegatingSmartContextLoader.java:228)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:124)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.zhubao.dao.UserDAO org.zhubao.service.impl.UserServiceImpl.userDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:512)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:92)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 39 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO': FactoryBean threw exception on object creation; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:149)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:484)
+	... 41 more
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property sort found for type org.zhubao.model.User
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:75)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:327)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:307)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:271)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:245)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:72)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:188)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.buildTree(PartTree.java:277)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:257)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:71)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:57)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:90)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:162)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:68)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:158)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:162)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:44)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	... 49 more
+2013-11-14 19:06:06,234-[TS] INFO main org.springframework.test.context.TestContextManager - @TestExecutionListeners is not present for class [class org.zhubao.service.UserServiceTest]: using defaults.
+2013-11-14 19:06:06,625-[TS] INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2013-11-14 19:06:07,531-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@1971afc: startup date [Thu Nov 14 19:06:07 CST 2013]; root of context hierarchy
+2013-11-14 19:06:08,156-[TS] INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2013-11-14 19:06:08,343-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2013-11-14 19:06:08,375-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:06:08,375-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:06:08,546-[TS] INFO main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'scheduler'
+2013-11-14 19:06:08,546-[TS] INFO main org.springframework.context.support.GenericApplicationContext - Bean 'scheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2013-11-14 19:06:08,593-[TS] INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bad8a8: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 19:06:08,984-[TS] INFO main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 19:06:09,328-[TS] INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-11-14 19:06:09,328-[TS] INFO main org.hibernate.Version - HHH000412: Hibernate Core {4.1.2}
+2013-11-14 19:06:09,343-[TS] INFO main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2013-11-14 19:06:09,343-[TS] INFO main org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2013-11-14 19:06:09,390-[TS] INFO main org.hibernate.ejb.Ejb3Configuration - HHH000204: Processing PersistenceUnitInfo [
+	name: jpaDemo
+	...]
+2013-11-14 19:06:09,843-[TS] INFO main org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2013-11-14 19:06:10,390-[TS] INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-11-14 19:06:10,406-[TS] INFO main org.hibernate.engine.jdbc.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2013-11-14 19:06:11,109-[TS] INFO main org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2013-11-14 19:06:11,125-[TS] INFO main org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2013-11-14 19:06:11,234-[TS] INFO main org.hibernate.validator.util.Version - Hibernate Validator 4.2.0.Final
+2013-11-14 19:06:12,234-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2013-11-14 19:06:12,234-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2013-11-14 19:06:12,234-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2013-11-14 19:06:12,296-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: SpringJpaData.s_user
+2013-11-14 19:06:12,296-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sex, username, borndate, email, userid, password]
+2013-11-14 19:06:12,296-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2013-11-14 19:06:12,296-[TS] INFO main org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2013-11-14 19:06:12,296-[TS] INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2013-11-14 19:06:15,406-[TS] INFO Thread-1 org.springframework.context.support.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@1971afc: startup date [Thu Nov 14 19:06:07 CST 2013]; root of context hierarchy
+2013-11-14 19:06:15,406-[TS] INFO Thread-1 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bad8a8: defining beans [userServiceImpl,application,messagePrinter,springTaskDemo,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,executor,scheduler,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,propertyConfigurer,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,userDAOImpl,userDAO,org.springframework.data.repository.core.support.RepositoryInterfaceAwareBeanPostProcessor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,mockMessageService]; root of factory hierarchy
+2013-11-14 19:06:15,406-[TS] INFO Thread-1 org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'jpaDemo'
+2013-11-14 19:06:15,421-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2013-11-14 19:06:15,421-[TS] INFO Thread-1 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
