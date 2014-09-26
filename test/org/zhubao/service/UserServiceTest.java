@@ -11,6 +11,8 @@ import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.Cache;
+import org.springframework.cache.CacheManager;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;
@@ -34,6 +36,9 @@ public class UserServiceTest {
 
 	@Autowired
 	private UserDAO userDAO;
+	
+	@Autowired
+	private CacheManager cacheManager; 
 
 	@Test
 	public void saveUser() {
@@ -112,15 +117,21 @@ public class UserServiceTest {
 	@Test
 	public void findAll() {
 		userServiceImpl.findAll();
-
+		Cache cache = cacheManager.getCache("serviceCache");
+		System.out.println(cache.get("findAll"));
 		userServiceImpl.findAll();
 	}
 
+	/**
+	 * test cache and get the value in the cache,the key must be Object 100 != 100L
+	 */
 	@Test
 	public void findById() {
-		userServiceImpl.findUserById(1);
+		userServiceImpl.findUserById(100);
+		Cache cache = cacheManager.getCache("serviceCache");
+		System.out.println("=== Object : "+cache.get(100L).get().toString());
 		System.out.println("second");
-		userServiceImpl.removeAll();
-		userServiceImpl.findUserById(1);
+		//userServiceImpl.removeAll();
+		userServiceImpl.findUserById(100);
 	}
 }
